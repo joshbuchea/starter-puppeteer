@@ -8,6 +8,8 @@ const puppeteer = require('puppeteer');
   page.on('console', (...args) => {
     console.log('PAGE LOG: ', ...args);
   });
+
+  // navigate to target website
   await page.goto('https://example.com');
 
   // screenshot: viewport
