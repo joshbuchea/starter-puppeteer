@@ -1,4 +1,23 @@
 {
+  "name": "starter-puppeteer",
+  "description": "A Puppeteer project starter",
+  "version": "0.1.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joshbuchea/starter-puppeteer.git"
+  },
+  "keywords": ["starter", "puppeteer", "browser", "automation", "chrome"],
+  "author": "Josh Buchea",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/joshbuchea/starter-puppeteer/issues"
+  },
+  "homepage": "https://github.com/joshbuchea/starter-puppeteer#readme",
   "dependencies": {
     "puppeteer": "^0.10.0"
   }
