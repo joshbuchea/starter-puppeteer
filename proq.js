@@ -13,6 +13,13 @@
 //   - Node
 // - Getting Started
 
+// Web Automation Use Cases
+// - Form filling
+// - Screen scraping
+// - Data extraction and transfer between applications
+// - Website testing
+// - Periodical report generation
+
 // ****************************************************************************
 // Screenshot: Viewport
 // ****************************************************************************
@@ -130,10 +137,13 @@
 
 const puppeteer = require('puppeteer');
 
-(async () => {
+(async() => {
   const browser = await puppeteer.launch();
   const page = await browser.newPage();
-  page.setViewport({ width: 1280, height: 800 });
+  page.setViewport({
+    width: 1280,
+    height: 800
+  });
   await page.goto(
     'https://medium.com/iotforall/apples-bet-on-ar-the-future-of-ui-design-f2f119033fea'
   );
