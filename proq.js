@@ -20,6 +20,13 @@
 // - Website testing
 // - Periodical report generation
 
+// Personal applications of web automation include:
+// - Notifying on weather conditions on predefined times
+// - Aggregating digest of social network updates
+// - Deployment automation in hobbyist projects
+// - Keeping tabs on online resources
+// - Building complex reminders
+
 // ****************************************************************************
 // Screenshot: Viewport
 // ****************************************************************************
